@@ -1,12 +1,17 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using System.Data;
 using TP2.Models;
 using TP2.Models.Data;
+using TP2.Utility;
 
 namespace TP2.Controllers
 {
+    [Authorize]
     public class FavorisController : Controller
     {
-
+      
         private TPDbContext _baseDonnees { get; set; }
 
         public FavorisController(TPDbContext donnees)

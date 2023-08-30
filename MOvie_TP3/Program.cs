@@ -8,6 +8,8 @@ using TP2.Models;
 using TP2.Models.Data;
 using Microsoft.AspNetCore.Identity;
 using TP2.Areas.Identity;
+using TP2.DbInitializer;
+using Microsoft.AspNetCore.Identity.UI.Services;
 
 var builder = WebApplication.CreateBuilder(args); // Cr�e une web app avec les param�tres envoy�s
 
@@ -44,10 +46,22 @@ builder.Services.Configure<RequestLocalizationOptions>(options =>
 builder.Services.AddDbContext<TPDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+builder.Services.AddIdentity<IdentityUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<TPDbContext>();
 
+
+builder.Services.AddScoped<IDbInitializer, DbInitializer>();
+
 builder.Services.AddRazorPages(); // Permet utilisation de Razor
+
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.LoginPath = $"/Identity/Account/Login";
+    options.LogoutPath = $"/Identity/Account/Logout";
+    options.AccessDeniedPath = $"/Identity/Account/AccessDenied";
+});
+
+
 
 builder.Services.AddSingleton<BaseDonnees>(); // Permet l'utilisation du Singleton
 
@@ -79,16 +93,31 @@ else
 app.UseHttpsRedirection();
 app.UseSession();
 app.UseRouting();
-app.UseEndpoints(endpoints =>
+
+app.UseAuthentication();
+app.UseAuthorization();
+//app.UseEndpoints(endpoints =>
+//{
+//    endpoints.MapControllerRoute(
+//        name: "default",
+//        pattern: "{controller}/{action}/{id?}",
+//        defaults: new { controller = "Home", action = "Index" });
+//});
+
+
+void SeedDatabase()
 {
-    endpoints.MapControllerRoute(
-        name: "default",
+    using (var scope = app.Services.CreateScope())
+    {
+        var dbInitializer = scope.ServiceProvider.GetRequiredService<IDbInitializer>();
+        dbInitializer.Initialize();
+    }
+}
+SeedDatabase();
+app.MapControllerRoute(
+    name: "default",
         pattern: "{controller}/{action}/{id?}",
         defaults: new { controller = "Home", action = "Index" });
-});
-
-app.MapRazorPages();
-app.UseAuthentication();
 
 app.MapRazorPages();
 

@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
-
+using Microsoft.AspNetCore.Identity;
 
 namespace TP2.Models.Data
 {
-    public class TPDbContext: IdentityDbContext
+    public class TPDbContext: IdentityDbContext<IdentityUser>
     {
         public TPDbContext(DbContextOptions<TPDbContext> options) : base(options)
         {

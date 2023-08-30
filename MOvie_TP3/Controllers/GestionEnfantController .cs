@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using TP2.Models;
@@ -72,6 +73,7 @@ namespace TP2.Controllers
         //    }
         //}
 
+        [Authorize]
 
         public async Task<IActionResult> Create()
         {
@@ -85,6 +87,7 @@ namespace TP2.Controllers
 
             return View(enfantVM);
         }
+        [Authorize]
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -127,6 +130,7 @@ namespace TP2.Controllers
 
 
 
+        [Authorize]
 
         // GET: GestionEnfantController/Edit/5
         public async Task<IActionResult> Edit(int id)
@@ -144,6 +148,8 @@ namespace TP2.Controllers
         }
 
         // POST: GestionEnfantController/Edit/5
+        [Authorize]
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(EnfantVM enfantVM)
@@ -222,6 +228,7 @@ namespace TP2.Controllers
         //    return RedirectToAction("Recherche", "Enfant");
 
         //}
+        [Authorize]
 
         public async Task<IActionResult> Delete(int id)
         {
@@ -233,6 +240,7 @@ namespace TP2.Controllers
 
             return View(enfant);
         }
+        [Authorize]
 
         [HttpPost]
         [ValidateAntiForgeryToken]

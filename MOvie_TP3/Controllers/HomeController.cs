@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Localization;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Localization;
 using TP2.Models;
@@ -27,26 +28,30 @@ namespace TP2.Controllers
             _logger.LogInformation("About page visited at {DT}" ,
                 DateTime.UtcNow.ToLongTimeString());
         }
-        [Route("")]
-        [Route("home/index")]
-        [Route("index")]
-
+        //[Route("")]
+        //[Route("home/index")]
+        //[Route("index")]
+        [AllowAnonymous]
         public IActionResult Index()
         {
             //ViewData["titre"] = "Acceuil";
             return View(_baseDonnees.Parents.ToList());
         }
 
+        [Authorize]
         public IActionResult Privacy()
         {
             ViewBag.Title = _localizer["PrivacyTitle"];
             return View();
         }
+
+        [Authorize]
         public IActionResult Dashboard()
         {
 
             return View();
         }
+
         public IActionResult Financial()
         {
 

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using TP2.Models;
 using TP2.Models.Data;
@@ -45,17 +46,17 @@ namespace TP2.Controllers
             //statut
             if (!pCriteres.statut1)
             {
-                filtrer.Resultat = filtrer.Resultat.Where(x => x.Parent.Id != 1).ToList(); 
+                filtrer.Resultat = filtrer.Resultat.Where(x => x.IdParent!= 1).ToList(); 
 
             } 
             if (!pCriteres.statut2)
             {
-                filtrer.Resultat = filtrer.Resultat.Where(x => x.Parent.Id != 2).ToList();
+                filtrer.Resultat = filtrer.Resultat.Where(x => x.IdParent != 2).ToList();
 
             } 
             if (!pCriteres.statut3)
             {
-                filtrer.Resultat = filtrer.Resultat.Where(x => x.Parent.Id != 3).ToList();
+                filtrer.Resultat = filtrer.Resultat.Where(x => x.IdParent != 3).ToList();
 
             }
 
@@ -95,6 +96,7 @@ namespace TP2.Controllers
 
 
 
+    
 
         [Route("enfant/detail/{id:int}")]
         [Route("enfant/{id:int}")]
@@ -113,6 +115,7 @@ namespace TP2.Controllers
             }
         }
 
+  
 
         [Route("enfant/detail/{nom}")]
         [Route("enfant/{nom}")]
@@ -133,6 +136,7 @@ namespace TP2.Controllers
             }
            
         }
+        [Authorize]
 
         public async Task<IActionResult> Create()
         {
@@ -146,6 +150,7 @@ namespace TP2.Controllers
 
             return View(enfantVM);
         }
+        [Authorize]
 
         [HttpPost]
         public async Task<IActionResult> Create(EnfantVM enfantVM)
