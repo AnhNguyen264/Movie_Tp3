@@ -424,9 +424,19 @@ namespace TP2.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
+                    b.Property<string>("Commentaires")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("NbFimsVendus")
+                        .HasColumnType("int");
+
                     b.Property<string>("NomObjective")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("VendeursId")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -436,17 +446,50 @@ namespace TP2.Migrations
                         new
                         {
                             Id = 1,
-                            NomObjective = "Ventes les films nouveaux "
+                            Commentaires = "Très bon",
+                            NbFimsVendus = 150,
+                            NomObjective = "Ventes les films nouveaux ",
+                            VendeursId = 1
                         },
                         new
                         {
                             Id = 2,
-                            NomObjective = "Ventes les films à venir "
+                            Commentaires = "Très bon",
+                            NbFimsVendus = 100,
+                            NomObjective = "Ventes les films à venir ",
+                            VendeursId = 2
                         },
                         new
                         {
                             Id = 3,
-                            NomObjective = "Ventes les films plus vus "
+                            Commentaires = "Très bon",
+                            NbFimsVendus = 120,
+                            NomObjective = "Ventes les films plus vus ",
+                            VendeursId = 3
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Commentaires = "Très bon",
+                            NbFimsVendus = 180,
+                            NomObjective = "Ventes les films Juillet ",
+                            VendeursId = 1
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Commentaires = "Très bon",
+                            NbFimsVendus = 160,
+                            NomObjective = "Ventes les films Mai ",
+                            VendeursId = 2
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Commentaires = "Très bon",
+                            NbFimsVendus = 200,
+                            NomObjective = "Ventes les films Juin ",
+                            VendeursId = 3
                         });
                 });
 
@@ -466,6 +509,9 @@ namespace TP2.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("IsDisponible")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Nom")
                         .IsRequired()
                         .HasMaxLength(20)
@@ -481,6 +527,7 @@ namespace TP2.Migrations
                             Id = 1,
                             Description = "Le loremuite de mots sans  utilisée à titre provisoire pour calibrer une mise en page le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page.",
                             ImageURL = "/Image/parent top.jpeg",
+                            IsDisponible = true,
                             Nom = "NOUVEAUX"
                         },
                         new
@@ -488,6 +535,7 @@ namespace TP2.Migrations
                             Id = 2,
                             Description = "Le loremuite de mots sans  utilisée à titre provisoire pour calibrer une mise en page le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page.",
                             ImageURL = "/Image/parent-is comming.jpeg",
+                            IsDisponible = true,
                             Nom = "À VENIR"
                         },
                         new
@@ -495,6 +543,7 @@ namespace TP2.Migrations
                             Id = 3,
                             Description = "Le loremuite de mots sans  utilisée à titre provisoire pour calibrer une mise en page le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page.",
                             ImageURL = "/Image/parent plus vus.jpeg",
+                            IsDisponible = true,
                             Nom = "LES PLUS VUS"
                         });
                 });
@@ -511,6 +560,9 @@ namespace TP2.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("ObjectivesId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
 
                     b.ToTable("Vendeurs");
@@ -519,32 +571,38 @@ namespace TP2.Migrations
                         new
                         {
                             Id = 1,
-                            NomVendeur = "VWilliam"
+                            NomVendeur = "VWilliam",
+                            ObjectivesId = 1
                         },
                         new
                         {
                             Id = 2,
-                            NomVendeur = "VLeo"
+                            NomVendeur = "VLeo",
+                            ObjectivesId = 1
                         },
                         new
                         {
                             Id = 3,
-                            NomVendeur = "VLiam"
+                            NomVendeur = "VLiam",
+                            ObjectivesId = 2
                         },
                         new
                         {
                             Id = 4,
-                            NomVendeur = "VThomas"
+                            NomVendeur = "VThomas",
+                            ObjectivesId = 3
                         },
                         new
                         {
                             Id = 5,
-                            NomVendeur = "VLouis"
+                            NomVendeur = "VLouis",
+                            ObjectivesId = 2
                         },
                         new
                         {
                             Id = 6,
-                            NomVendeur = "VArthur"
+                            NomVendeur = "VArthur",
+                            ObjectivesId = 3
                         });
                 });
 

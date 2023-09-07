@@ -7,6 +7,6 @@ namespace TP2.Models
         public string NickName { get; set; }
 
 
-
+        
     }
 }

@@ -9,301 +9,317 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TP2
 build_property.RootNamespace = TP2
-build_property.ProjectDir = C:\Ete 2023\Prg transactionnelle\tp3\Movie_Tp3\MOvie_TP3\
+build_property.ProjectDir = C:\Ete 2023\Lam lai tp3 trans\Movie_Tp3\MOvie_TP3\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Ete 2023\Prg transactionnelle\tp3\Movie_Tp3\MOvie_TP3
+build_property.MSBuildProjectDirectory = C:\Ete 2023\Lam lai tp3 trans\Movie_Tp3\MOvie_TP3
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWxDaGFuZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxFeHRlcm5hbExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Lockout.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Lockout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGgyZmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGhSZWNvdmVyeUNvZGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGVsZXRlUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGlzYWJsZTJmYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRG93bmxvYWRQZXJzb25hbERhdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW5hYmxlQXV0aGVudGljYXRvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRXh0ZXJuYWxMb2dpbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcR2VuZXJhdGVSZWNvdmVyeUNvZGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUmVzZXRBdXRoZW50aWNhdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2V0UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2hvd1JlY292ZXJ5Q29kZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcVHdvRmFjdG9yQXV0aGVudGljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1N0YXR1c01lc3NhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNlbmRFbWFpbENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfU3RhdHVzTWVzc2FnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Error.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/Enfant/Detail.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Enfant/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5mYW50XERldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/Enfant/Recherche.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Enfant/Recherche.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5mYW50XFJlY2hlcmNoZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/Enfant/_EnfantPartiel.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Enfant/_EnfantPartiel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5mYW50XF9FbmZhbnRQYXJ0aWVsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/Favoris/Index.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Favoris/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmF2b3Jpc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/GestionEnfant/Create.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/GestionEnfant/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VzdGlvbkVuZmFudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/GestionEnfant/Delete.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/GestionEnfant/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VzdGlvbkVuZmFudFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/GestionEnfant/Edit.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/GestionEnfant/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VzdGlvbkVuZmFudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/Home/Consulter.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Home/Consulter.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb25zdWx0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/Home/Dashboard.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Home/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/Home/Employes.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Home/DetailsObjects.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzT2JqZWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Home/DetailsVendeurs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzVmVuZGV1cnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Home/Employes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFbXBsb3llcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/Home/Financial.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Home/Financial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxGaW5hbmNpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/Home/Index.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/Home/LeaderObjective.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Home/LeaderObjective.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMZWFkZXJPYmplY3RpdmUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/Home/Privacy.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/Parents/Create.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Home/_objectivePartiel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfb2JqZWN0aXZlUGFydGllbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Home/_vendeurPartiel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfdmVuZGV1clBhcnRpZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Parents/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyZW50c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/Parents/Delete.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Parents/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyZW50c1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/Parents/Details.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Parents/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyZW50c1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/Parents/Edit.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Parents/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyZW50c1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/Parents/Index.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Parents/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyZW50c1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/Parents/_EnfantPartiel.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Parents/_EnfantPartiel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFyZW50c1xfRW5mYW50UGFydGllbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/Shared/NonTrouve.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Shared/NonTrouve.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE5vblRyb3V2ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/Shared/_bannerPartiel.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Shared/_bannerPartiel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9iYW5uZXJQYXJ0aWVsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/Shared/_Layout.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/Shared/_LoginPartial.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/Shared/_navDashBoard.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Shared/_navDashBoard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9uYXZEYXNoQm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/Shared/_Notification.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Shared/_Notification.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/Shared/_script_dashboard.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Shared/_script_dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9zY3JpcHRfZGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/Shared/_SelectLanguage.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Shared/_SelectLanguage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TZWxlY3RMYW5ndWFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/Shared/_style_dashboard.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Shared/_style_dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9zdHlsZV9kYXNoYm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/Shared/_UpsertButtons.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Shared/_UpsertButtons.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9VcHNlcnRCdXR0b25zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/_ViewImports.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ete 2023/Prg transactionnelle/tp3/Movie_Tp3/MOvie_TP3/Views/_ViewStart.cshtml]
+[C:/Ete 2023/Lam lai tp3 trans/Movie_Tp3/MOvie_TP3/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

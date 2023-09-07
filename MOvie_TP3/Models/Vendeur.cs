@@ -13,7 +13,9 @@ namespace TP2.Models
         public string NomVendeur { get; set; }
 
 
+        public int ObjectivesId { get; set; }
+
         [ValidateNever]
-        public  ICollection<Objectives?> Objectives { get; set; }
+        public ICollection<Objectives?> Objectives { get; set; }
     }
 }

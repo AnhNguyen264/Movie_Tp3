@@ -27,6 +27,7 @@ namespace TP2.Models
         //{
         //    Enfants = new List<Enfant>();
         //}
+        public bool IsDisponible { get; set; } = true;
         public List<Enfant> Enfants { get; set; }
 
 

@@ -1,9 +1,12 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
 using TP2.Models;
+using TP2.ViewModels;
 using TP2.Models.Data;
+using TP2.Utility;
 
 namespace TP2.Controllers
 {
@@ -51,23 +54,56 @@ namespace TP2.Controllers
 
             return View();
         }
-
+        [Authorize(Roles = AppConstants.AdminRole)]
         public IActionResult Financial()
         {
 
             return View();
         }
+        [Authorize(Roles = AppConstants.ChefEquipeRole + "," + AppConstants.AdminRole)]
         public IActionResult LeaderObjective()
         {
+            List<Objectives> objectT = _baseDonnees.Objectives.ToList();
 
-            return View();
+            return View(objectT);
+
         }
+
+        public async Task<IActionResult> DetailsObjects(int id)
+        {
+            var detailsObject = _baseDonnees.Vendeurs.Where(x => x.ObjectivesId == id);
+
+            ObjectiveVM objectiveVM = new()
+            {
+                objectives = new(),
+                vendeurList = detailsObject.ToList()
+            };
+            objectiveVM.objectives = await _baseDonnees.Objectives.FirstOrDefaultAsync(z => z.Id == id);
+            return View(objectiveVM);
+        }
+
+        [Authorize(Roles = AppConstants.ChefEquipeRole + "," + AppConstants.AdminRole)]
+
         public IActionResult Employes()
         {
-            return View();
+            List<Vendeur> vendeurs = _baseDonnees.Vendeurs.ToList();
 
+            return View(vendeurs);
         }
+        [Authorize]
 
+        public async Task<IActionResult> DetailsVendeurs(int id)
+        {
+            var detailsVendeurs = _baseDonnees.Objectives.Where(x => x.VendeursId == id);
+
+            VendeurVM vendeurVM = new()
+            {
+                venduers = new(),
+                objecttivesLists = detailsVendeurs.ToList()
+            };
+            vendeurVM.venduers = await _baseDonnees.Vendeurs.FirstOrDefaultAsync(z => z.Id == id);
+            return View(vendeurVM);
+        }
         public IActionResult Consulter(int id)
         {
 

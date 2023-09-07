@@ -11,9 +11,12 @@ namespace TP2.Models
 
 
         public string NomObjective { get; set; }
+        public string Commentaires { get; set; }
+        public int NbFimsVendus { get; set; }
 
+        public int VendeursId { get; set; }
         [ValidateNever]
 
-        public  ICollection<Vendeur>? Vendeurs { get; set; }
+        public ICollection<Vendeur>? Vendeurs { get; set; }
     }
 }
