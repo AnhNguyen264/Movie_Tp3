@@ -1,0 +1,81 @@
+﻿@model List<Vendeur>
+
+@section style {
+    @{
+        await Html.RenderPartialAsync("_style_dashboard");
+    }
+    <style>
+
+    </style>
+}
+<div class="main_body">
+    <div class="row">
+        <div class="col-2">
+
+            <partial name="_navDashBoard" />
+
+        </div>
+
+        <div class="col-10">
+            <div class="header">
+
+                <div class="header-left">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="header-right">
+                    <i class="fa-solid fa-bell"></i>
+                    <i class="fa-regular fa-envelope"></i>
+
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+
+            <div class="main_content">
+                <h2>Les Vendeurs</h2>
+
+
+                <table class="table">
+                    <thead>
+                        <tr>
+
+                            <th>Nom de Vendeur</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+
+                                <td width="30%">
+                                    <a class="" asp-controller="home" asp-action="DetailsVendeurs" asp-route-id="@item.Id">
+                                        @item.NomVendeur
+                                    </a>
+                                </td>
+
+                            </tr>
+                        }
+                    </tbody>
+
+
+
+                </table>
+
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_script_dashboard");
+    }
+    <script>
+
+
+    </script>
+}
